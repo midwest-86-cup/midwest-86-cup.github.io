@@ -715,3 +715,18 @@ table.calculator-table tr.selected-item {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+
+
+
+
+/***************************************** Midwest Overrides ***************************************************/
+
+th.schedule-table-header {
+  text-align: left;
+}
+
+td.schedule-table-date-column {
+  width: 120px;
+}
+
