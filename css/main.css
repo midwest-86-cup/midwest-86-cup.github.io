@@ -1,0 +1,127 @@
+html,body {
+  background: #EFF3F4;
+  font-family: 'Open Sans', serif;
+  height: 100%;
+}
+/* TEMP OVERRIDES UNTIL WE ARE RUNNING ON SASS */
+.has-text-danger{color:#ff0000 !important;}
+.tag:not(body).is-danger, .navbar.is-danger .navbar-end .navbar-link.is-active, .navbar.is-danger .navbar-end .navbar-link:hover, .navbar.is-danger .navbar-end>a.navbar-item.is-active, .navbar.is-danger .navbar-end>a.navbar-item:hover, .navbar.is-danger .navbar-start .navbar-link.is-active, .navbar.is-danger .navbar-start .navbar-link:hover, .navbar.is-danger .navbar-start>a.navbar-item.is-active, .navbar.is-danger .navbar-start>a.navbar-item:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.navbar.is-danger .navbar-brand .navbar-link.is-active, .navbar.is-danger .navbar-brand .navbar-link:hover, .navbar.is-danger .navbar-brand>a.navbar-item.is-active, .navbar.is-danger .navbar-brand>a.navbar-item:hover{
+  background-color: #ff0000;
+}
+
+a{color: #ff0000;}
+.is-dark a:hover {
+    color: #a81a1a !important;
+}
+
+iframe{
+    width: 100%;
+    min-height: 240px;
+}
+
+table{margin: 20px auto;}
+
+section{margin-bottom: 5rem !important;}
+
+.footer {
+    background-color: #ffffff;
+    padding: 3rem 1.5rem 1rem;
+}
+
+.footer .level p.last{margin-bottom: 1em !important;}
+
+#featuredSection .card-image {
+      font-size: 6em;
+}
+
+section.is-dark:not(.hero){
+  background: #262626;
+  padding: 51px 0px 10px 0px;
+  box-shadow: 0px 0px 10px #00000052;
+}
+
+section.is-dark:not(.hero) .title, section.is-dark:not(.hero) .subtitle{
+  color: white !important;
+}
+
+#media .image{    box-shadow: 0px 0px 10px black;}
+#media{
+    margin-bottom: 0px !important;
+    padding-bottom: 50px;
+}
+
+.hero.is-dark .title {
+    color: #f5f5f5;
+    text-shadow: 1px 1px 2px black;
+    font-size: 38px;
+}
+
+.hero{
+    background-image: url(../images/header/abnorth_header_001.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0rem !important;
+    background-position: center 83%;
+}
+
+.hero-body{
+  background: #000000b0;
+}
+
+.hero-body .container {
+  padding: 40px;
+}
+}
+
+.hero-body .subtitle {
+  padding-top: 2rem;
+  line-height: 1.5;
+}
+.hero-head{
+  background: #000000b0;
+}
+.features {
+  padding: 5rem 0;
+  padding-bottom: 0px;
+}
+.box.cta {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+}
+.card-image > .fa {
+  font-size: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #209cee;
+}
+.card-content .content {
+  font-size: 14px;
+  margin: 1rem 1rem;
+}
+.card-content .content h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  margin-bottom: 2rem;
+}
+.intro {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.sandbox {
+  padding: 5rem 0;
+}
+.tile.notification {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
